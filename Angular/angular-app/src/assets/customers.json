@@ -3,11 +3,11 @@
           "id": 1,
           "name": "ted James",
           "city": " Phoenix ",
-          "orderTotal": 40.99
+          "orderTotal": 43.99
     },
     {
           "id": 2,
-          "name": "Michelle Thompson",
+          "name": "Lili Thompson",
           "city": "Los Angeles ",
           "orderTotal": 89.99
     },
@@ -22,5 +22,11 @@
           "name": "Tina Adams",
           "city": "Seattle",
           "orderTotal": 15.99
-    }
+    },
+    {
+            "id": 5,
+            "name": "Michael Thomas",
+            "city": "Lisbon",
+            "orderTotal": 115.99
+}
 ]
