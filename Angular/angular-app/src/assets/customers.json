@@ -22,11 +22,5 @@
           "name": "Tina Adams",
           "city": "Seattle",
           "orderTotal": 15.99
-    },
-    {
-            "id": 5,
-            "name": "Michael Thomas",
-            "city": "Lisbon",
-            "orderTotal": 115.99
-}
+    }
 ]

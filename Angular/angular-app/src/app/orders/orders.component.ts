@@ -12,14 +12,13 @@ import { ICustomer, IOrder, IOrderItem } from '../shared/interfaces';
 export class OrdersComponent implements OnInit {
 
   orders: IOrder[] = [];
-  customer: ICustomer | undefined;
+  customer!: ICustomer;
 
   constructor(private dataService: DataService, 
               private route: ActivatedRoute) { }
 
   ngOnInit() {
-    let id: number = 1;
-    this.route.snapshot.paramMap.get('id');
+    let id: number = Number(this.route.snapshot.paramMap.get('id'));
     this.dataService.getOrders(id).subscribe((orders: IOrder[]) => {
         this.orders = orders;
     });
