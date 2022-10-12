@@ -7,8 +7,8 @@ import { DataService } from '../core/data.service';
   templateUrl: './customers.component.html'
 })
 export class CustomersComponent implements OnInit {
-  title: string = "";
-  people: ICustomer[] = [];
+  title: string = '';
+    people: any[] = [];
 
   constructor(private dataService: DataService ) { 
 

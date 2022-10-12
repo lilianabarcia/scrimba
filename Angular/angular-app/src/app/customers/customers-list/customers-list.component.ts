@@ -22,9 +22,9 @@ export class CustomersListComponent implements OnInit {
     }
 }
 
-  filteredCustomers: ICustomer[] = [];
-  customersOrderTotal!: number;
-  currencyCode: string = '€ ';
+filteredCustomers: any[] = [];
+customersOrderTotal: number = 0;
+currencyCode: string = 'EUR';
   
 
   constructor(private sorterService: SorterService ) { }
